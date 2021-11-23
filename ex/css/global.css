@@ -1,0 +1,123 @@
+@media screen and (min-width:1280px) {
+  header > div
+  ,.start,
+  .design > div,
+  .detail,
+  .more > div,
+  article section.reasons div,
+  article section.reasons h2,
+  article section.goit > div,
+  footer .getin{
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+  
+  
+  header {
+    background: url('/images/bg_header.png') no-repeat center;
+    min-height: 950px;
+  }
+  header > div h1 {
+    padding: 55px 0 0 0;
+    box-sizing: border-box;
+    min-width: 97px;
+    width: 8.2%;
+  }
+  header > div h1 a img {
+    width: 100%;
+  }
+  header > div {
+    position: relative;
+  }
+  header > div dl {
+    position: absolute;
+    background: url('/images/bg_iphone.png') no-repeat right center;
+    min-height: 1200px;
+    width: 100%;
+    max-width: 1140px;
+    background-size: 50%;
+    color: #fff;
+   
+   
+  }
+  header > div dl dt {
+    font-size: 60px;
+    max-width: 400px;
+     width:50%;
+    color: white;
+    margin-top: 160px;
+  }
+  header > div dl dd {
+    color: white;
+    max-width: 440px;
+    width: 50%;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 30px;
+  }
+  /** header fin */
+
+  footer {
+    background-color: #192431;
+    padding: 120px 0 150px 0;
+  }
+  footer .getin > div {
+    display: flex;
+  }
+  footer .getin > div dl {
+    font-size: 13px;
+  }
+  footer .getin > div dl:first-of-type {
+    max-width: 570px;
+  }
+  footer .getin > div dl:last-of-type {
+    max-width: 470px;
+    width: 45%;
+    margin-left: 8%;
+  }
+  footer .getin > div dl:last-of-type input {
+    margin-bottom: 20px;
+    border: none;
+  }
+  footer .getin > div dl:last-of-type input[type='text'] {
+    width: 400px;
+    padding:21px;
+    font-size: 15px;
+    border-radius: 3px 0 0 3px;
+    box-sizing: border-box;
+    float: left;
+  }
+  footer .getin > div dl:last-of-type input[type='submit'] {
+    width: 70px;
+    height: 60px;
+    background: #82ca9c url('/images/btn_send.png') no-repeat center;
+    background-size: auto;
+    text-indent: -9999px;
+ 
+  }
+  footer .getin > div dl:last-child input + dd {
+    font-style: italic;
+    color: #57697f;
+    clear: both;
+  }
+  footer .getin > div dl dt {
+    color: white;
+    margin-bottom: 20px;
+  }
+  footer .getin > div dl dd {
+    color: white;
+    line-height: 18px;
+  }
+  footer .getin .kinds {
+    max-width: 500px;
+  }
+  footer .getin .kinds dl {
+    margin-top: 75px;
+    width: 33.3%;
+  }
+  footer .getin .kinds dl dd a {
+    color: white;
+    display: block;
+    padding: 3px 0;
+  }
+}

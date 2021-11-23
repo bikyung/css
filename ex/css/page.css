@@ -1,0 +1,244 @@
+@media screen and (min-width: 1280px) {
+
+
+  article section.start {
+    padding: 110px 0 80px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  article section.start div {
+    flex: 1 48%;
+
+  }
+  article section.start h2 {
+    flex-basis: 100%;
+    font-size:35px;
+  }
+  article section.start div p {
+    margin-top: 40px;
+    max-width: 570px;
+  }
+  article section.start div:last-of-type {
+    margin-left: 2.56%;
+  }
+  article section.start div:last-of-type p:nth-child(1) {
+    margin-top: 100px;
+  }
+  /** start fin */
+
+  article section.design div{
+    width: 100%;
+  }
+  article section.design div ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+  }
+  article section.design div ul li {
+  padding: 60px 40px 50px;
+  box-sizing: border-box;
+  }
+  article section.design div ul li:not(:nth-child(5)) {
+    flex: 1 25%;
+    max-width: 400px;
+  }
+  article section.design div ul li:nth-child(5) {
+    flex: 2 50%;
+    max-width: 800px;
+  }
+  article section.design div ul li:first-child {
+    background-color: #f5989d;
+  }
+  article section.design div ul li:nth-child(2){
+    background-color: #615f7d;
+  }
+  article section.design div ul li:nth-child(3){
+    background: url('/images/bg_li_01.png') no-repeat center;
+    background-size: cover;
+  }
+    article section.design div ul li:nth-child(4){
+    background-color:#bd8cbf;
+  }
+  article section.design div ul li:nth-child(5){
+    background: url('/images/bg_li_02.png') no-repeat center;
+  }
+  article section.design div ul li:nth-child(6){
+    background-color: #82ca9c;
+  }
+  article section.design div ul li:nth-child(7){
+    background: url('/images/bg_li_03.png')no-repeat center;
+  }
+  article section.design div ul li dl dt {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  article section.design div ul li dl dd {
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+  }
+  article section.design div ul li dl dd a {
+    margin-left: 2.56%;
+    color: white;
+  }
+  /** disign fin */
+
+  article section.detail div {
+    display: flex;
+  }
+  article section.detail h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+  article section.detail div dl {
+    flex: 1 24%;
+    margin-bottom: 150px;
+  }
+  article section.detail div dl dt {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  article section.detail div dl:not(:first-child) {
+    margin-left: 2.56%;
+  } 
+  article section.detail div dl dd {
+    font-size: 13px;
+    line-height: 18px;
+  }
+ /** detail fin */
+
+ article section.more {
+   background: url('/images/bg_handle.png') no-repeat center;
+   min-height: 875px;
+   max-width: 1800px;
+ }
+ article section.more > div dl {
+   max-width: 500px;
+   padding-top: 450px;
+ }
+ article section.more > div dl dt {
+   color: white;
+   font-size: 50px;
+   font-weight: 700;
+   margin-bottom: 40px;
+ }
+ article section.more > div dl dd {
+   color: white;
+   font-size: 13px;
+   line-height: 18px;
+   max-width: 440px;
+ }
+ article section.more > div dl dd:last-of-type {
+   margin-top: 30px;
+ }
+ article section.more > div dl dd a {
+   margin-left: 2.56%;
+   color: white;
+ }
+ /** more fin */
+
+ article section.reasons {
+   background-color:#82ca9c;
+   padding: 120px 0 150px 0;
+   box-sizing: border-box;
+ }
+ article section.reasons h2 {
+   font-size: 30px;
+   font-weight: 700;
+   margin-bottom: 30px;
+ }
+ article section.reasons div {
+   display: flex;
+ }
+ article section.reasons div dl {
+   flex: 1 31%;
+ }
+ article section.reasons div dl:not(:first-child) {
+   margin-left: 2.56%;
+ }
+ article section.reasons div dl dt {
+   font-size: 18px;
+   font-weight: 700;
+   margin-bottom: 20px;
+ }
+ article section.reasons div dl dd {
+   font-size: 13px;
+   line-height: 18px;
+ }
+ /** reasons fin */
+
+ article section.goit {
+   background-color: #f6f7fa;
+ }
+ article section.goit > div {
+   display: flex;
+   padding: 100px 0 120px 0;
+ }
+ article section.goit > div div {
+  flex: 1 570px;
+  padding: 50px 80px 50px 50px;
+ }
+ article section.goit > div div h3 {
+  margin-bottom: 25px;
+  padding: 5px 12px;
+  font-size: 13px;
+  display: inline-block;
+ }
+ article section.goit > div div:first-of-type h3 {
+   background-color: #e1e1e1;
+ }
+ article section.goit > div div:last-of-type h3 {
+   background-color: #bd8cbf;
+ } 
+ article section.goit > div div dl {
+   margin-bottom: 25px;
+ }
+ article section.goit > div div dl dt {
+  margin-bottom: 25px;
+  font-size: 20px;
+ }
+ article section.goit > div div dl dd {
+   font-size: 13px;
+   line-height: 18px;
+   max-width: 440px;
+ }
+ article section.goit > div button {
+   padding: 15px 25px;
+   background-color: #82ca9c;
+   border-style: none;
+   border-radius: 5px;
+   box-sizing: border-box;
+   color: white;
+   font-weight: 700;
+ }
+ article section.goit > div ul {
+   margin-top: 20px;
+ }
+ article section.goit > div ul li {
+  display: inline-block;
+ }
+ article section.goit > div ul li a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  text-indent: -9999px;
+ }
+ article section.goit > div > div:first-of-type ul li:first-of-type a {
+  background: url('/images/ico_mac.png') no-repeat center;
+ }
+ article section.goit > div > div:first-of-type ul li:last-of-type a {
+   background: url('/images/ico_win.png') no-repeat center;
+ }
+ article section.goit > div div:last-of-type ul li:first-of-type a {
+  background: url('/images/ico_mac.png') no-repeat center;
+ }
+ article section.goit > div div:last-of-type ul li:last-of-type a {
+   background: url('/images/ico_win.png') no-repeat center;
+ }
+ article section.goit > div div:last-of-type {
+   background-color: white;
+ }
+
+}
