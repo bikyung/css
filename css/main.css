@@ -1,0 +1,45 @@
+
+.item {
+  width: 50px;
+  height: 50px;
+  border:1px solid black;
+}
+.items1 {
+  background-color: red;
+}
+.items2 {
+  background-color: blue;
+}
+.items3 {
+  background-color: yellow;
+}
+.items4 {
+  background-color: green;
+}
+.items5 {
+  background-color: skyblue;
+}
+.items6 {
+  background-color: gainsboro;
+}
+.items7 {
+  background-color: gold;
+}
+.items8 {
+  background-color: violet;
+}
+.items9 {
+  background-color: wheat;
+}
+.items10 {
+  background-color: silver;
+}
+
+.Container {
+  height: 50vh;
+  display: flex;
+  flex-direction: row;    /** 기본값 : row */ 
+  flex-wrap: wrap-reverse;         /** 기본값 : nowrap*/
+
+}
+
