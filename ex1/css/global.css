@@ -2,7 +2,8 @@ header section.creative,
 section.story,
 section.expertise,
 section.meet > div,
-section.works > div {
+section.works > div,
+section.give {
   max-width: 940px;
   margin: 0 auto;
   

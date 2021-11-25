@@ -51,8 +51,6 @@
     border: 2px solid #fff;
     position: relative;
     box-sizing: border-box;
-
- 
   }
   section.watch > div > a {
     color: white;
@@ -168,9 +166,9 @@
     padding: 20px 0;
   }
   section.meet > div ul li figure figcaption dl {
-    border: 1px solid #fff;
+    border: 1px solid #78748b;
     box-sizing: border-box;
-    padding-bottom: 27px;
+    padding-bottom: 25px;
     text-align: center;
     margin-top: 30px;
   }
@@ -234,14 +232,100 @@
     border : 2px solid #1a828b;
   }
   section.persons {
-    background: url('../images/bg_04.png') no-repeat left top / cover;
+    background: url('../images/bg_04.png') no-repeat left top;
     padding: 70px 0;
+    text-align: center;
+  }
+  section.persons div {
+   position: relative;
   }
   section.persons div h2 {
     width: 35px;
-    height: 35px;
+    margin: 0 auto;
   }
   section.persons div h2 img {
     width: 100%
   }
+  section.persons div > p {
+    color: #b8b6bf;
+    padding: 45px 15%;
+    line-height: 25px;
+  }
+  section.persons div > dl {
+    margin-bottom: 40px;
+  }
+  section.persons div > dl dt {
+    font-size: 14px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  section.persons div > dl dd {
+    color: #b8b6bf;
+    font-size: 13px;
+  }
+  section.persons div > ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  section.persons div > ul li a {
+    display: block;
+    transition-duration: 1s;
+  }
+  section.persons div > ul li:hover a {
+    transform: scale(1.2);
+  }
+  section.persons div > a:first-of-type {
+    position: absolute;
+    left: 30%;
+    font-size: 30px;
+    color: white;
+    top: 85%;
+  }
+  section.persons div > a:last-of-type {
+    position: absolute;
+    right: 30%;
+    font-size: 30px;
+    color: white;
+    top: 85%;
+  }
+  section.give > div {
+    padding: 70px 0;
+    display: flex;
+  }
+  section.give > div > div {
+    flex: 1 50%;
+  }
+  section.give > div > div form fieldset input:not([type="submit"]),
+  section.give > div > div form fieldset textarea {
+    display: block;
+    margin: 25px 0;
+    width: 70%;
+    padding: 10px 0;
+    box-sizing: border-box;
+  }
+  section.give > div > div form fieldset input[type="submit"] {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #26e2d3;
+    color:#26e2d3;
+  }
+  section.give > div div:last-of-type ul {
+    display: flex;
+    object-fit: cover;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  section.give > div div:last-of-type ul li {
+    list-style: none;
+    margin: 2%;
+  }
+  section.give > div div:last-of-type ul li a {
+    display: block;
+  }
+  section.give > div div:last-of-type ul li a {
+    width: 100%;
+    max-width: 160px;
+  }
+
 }
