@@ -135,9 +135,113 @@
     font-size: 13px;
     line-height: 20px;
   }
+   /** tise fin */
   section.meet {
-    background: url('../images/bg_03.png') no-repeat left top;
-    background-size: cover;
+    background: url('../images/bg_03.png') left top / cover no-repeat;
+    color: white;
+    padding: 70px 3%;
+    text-align: center;
+  }
+  section.meet > div h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  section.meet > div h2 + p {
+    font-size: 13px;
+    padding: 25px 0;
+    background:url('../images/bd_01.png') center bottom no-repeat;
+  }
+  section.meet > div ul {
+    display: flex;
+    margin-bottom: 70px;
+  }
+  section.meet > div ul li {
+    list-style:none;
+    background: url('https://via.placeholder.com/230x230') no-repeat center;
+    padding-top: 260px;
+    flex: 1 23%;
+  }
+  section.meet > div ul li:not(:first-child) {
+    margin-left: 2%;
+  }
+  section.meet > div ul li figure {
+    padding: 20px 0;
+  }
+  section.meet > div ul li figure figcaption dl {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    padding-bottom: 27px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  section.meet > div ul li figure figcaption dl dt {
+    font-size: 13px;
+  }
+  section.meet > div ul li figure figcaption dl dd {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #7c7b8c;
+  }
+  section.meet > div ul + p {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  section.meet > div ul + p + a {
+    padding: 10px;
+    color:#1a828b;
+    font-weight: 700;
+    box-sizing: border-box;
+    border : 2px solid #1a828b;
+  }
+  section.works > div:first-of-type {
+    position: relative;
+    padding: 70px 0;
+  }
+  section.works > div h2 {
+    position: absolute;
+    left: 0;
+    font-size: 22px;
+  }
+  section.works > div > h2 + a {
+    position: absolute;
+    right: 0;
+    color: #c2c1c4;
+    font-size: 14px;
+  }
+  section.works ul:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+  section.works ul li {
+    float: left;
+    width: 16.6%;
+    list-style: none;
+  }
+  section.works ul li img {
+    width: 100%;
+  }
+  section.works ul + div { 
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+  }
+  section.works > ul + .click2 > a {
+    padding: 5px 10px;
+    color:#1a828b;
+    font-weight: 700;
+    box-sizing: border-box;
+    border : 2px solid #1a828b;
+  }
+  section.persons {
+    background: url('../images/bg_04.png') no-repeat left top / cover;
+    padding: 70px 0;
+  }
+  section.persons div h2 {
+    width: 35px;
+    height: 35px;
+  }
+  section.persons div h2 img {
+    width: 100%
   }
 }
-
