@@ -3,7 +3,8 @@ section.story,
 section.expertise,
 section.meet > div,
 section.works > div,
-section.give {
+section.give,
+footer > div {
   max-width: 940px;
   margin: 0 auto;
   
@@ -57,8 +58,8 @@ a {
     text-align: center;
   }
   .click {
-   display: flex;
-   justify-content: center;
+    display: flex;
+    justify-content: center;
   }
   .click a {
     padding: 10px;
@@ -77,7 +78,6 @@ a {
   }
   .slider ul li {
     list-style: none;
- 
   }
   .slider ul li a {
     display: block;
@@ -94,5 +94,102 @@ a {
 
   /** header fin */
   
-  
+  footer {
+    background: url('../images/bg_05.png') no-repeat left top;
+  }
+  footer > div .flex {
+    display: flex;
+    padding-top: 60px;
+  }
+  footer > div .flex div {
+    flex: 1 33%;
+  }
+  footer > div .flex > div:first-of-type h2 {
+    width: 20%;
+    min-width: 120px;
+    position: relative;
+    top: -20px;
+  }
+  footer > div .flex > div:first-of-type h2 img {
+    width: 100%;
+  }
+  footer > div .flex > div:first-of-type p {
+    color: white;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 280px;
+  }
+  footer > div .flex > div:nth-of-type(2){
+    margin-left: 5%;
+  }
+  footer > div .flex > div:nth-of-type(2) h2 {
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  footer > div .flex > div:nth-of-type(2) a {
+    float: left;
+  }
+  footer > div .flex > div:nth-of-type(2) p {
+    margin-left: 9%;
+    color: white;
+    font-size: 13px;
+    max-width: 250px;
+    line-height: 19px;
+  }
+  footer > div .flex > div:nth-of-type(2) a:last-of-type img {
+    transform: translateY(80%);
+  }
+  footer > div .flex > div:nth-of-type(2) address {
+    margin: 15px 0 0 9%;
+    font-size: 13px;
+    color: white;
+  }
+  footer > div .flex > div:nth-of-type(3) {
+    margin-left: 4%;
+  }
+  footer > div .flex > div:nth-of-type(3) h2 {
+    margin-bottom: 30px;
+    color: white;
+  }
+  footer > div .flex > div:nth-of-type(3) input[type='text'] {
+    padding: 15px 5px;
+    min-width: 210px;
+  }
+  footer > div .flex > div:nth-of-type(3) > a {
+    padding: 10px 10px 15px;
+    border: 1px solid #fff;
+    margin-left: 2%;
+  }
+  footer > div .flex > div:nth-of-type(3) > a img {
+    transform: translatey(35%);
+  }
+  footer > div .flex > div:nth-of-type(3)  ul {
+    display: flex;
+    margin-top: 30px;
+    gap: 8px;
+  }
+  footer > div .flex > div:nth-of-type(3) ul li {
+    list-style: none;
+  }
+  footer > div div:last-of-type {
+    padding-bottom: 70px;
+  }
+  footer > div div:last-of-type > ul {
+    list-style: none;
+    font-size: 13px;
+
+  }
+  footer > div .list > ul > li:not(:nth-child(4)) {
+    display: inline-block;
+    margin-right: 5%;
+  }
+  footer > div .list ul li:nth-child(4) {
+    float: right;
+  }
+  footer > div .list ul li a {
+    display: block;
+    color: white;
+  }  
 }
