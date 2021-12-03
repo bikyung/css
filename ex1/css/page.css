@@ -231,13 +231,14 @@
     box-sizing: border-box;
     border : 2px solid #1a828b;
   }
+   /** works fin */
   section.persons {
     background: url('../images/bg_04.png') no-repeat left top;
     padding: 70px 0;
     text-align: center;
   }
   section.persons div {
-   position: relative;
+    position: relative;
   }
   section.persons div h2 {
     width: 35px;
@@ -289,6 +290,7 @@
     color: white;
     top: 85%;
   }
+  /** persons fin */
   section.give > div {
     padding: 70px 0;
     display: flex;
@@ -327,5 +329,4 @@
     width: 100%;
     max-width: 160px;
   }
-
 }

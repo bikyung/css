@@ -179,7 +179,6 @@ a {
   footer > div div:last-of-type > ul {
     list-style: none;
     font-size: 13px;
-
   }
   footer > div .list > ul > li:not(:nth-child(4)) {
     display: inline-block;
